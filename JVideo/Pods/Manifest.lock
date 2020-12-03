@@ -1,0 +1,106 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.4)
+  - CTMediator (32)
+  - JCommonUIModule (0.1.0):
+    - AFNetworking
+    - JMacroAndCategoryModule
+    - Masonry
+  - JDLNAModule (0.1.0):
+    - JMacroAndCategoryModule
+    - MRDLNA
+  - JHomeModule (0.1.0):
+    - AFNetworking
+    - JCommonUIModule
+    - JMacroAndCategoryModule
+    - JPlayerModuleCategory
+    - JSONModel
+    - Masonry
+    - TYCyclePagerView
+  - JHomeModuleCategory (0.1.0):
+    - CTMediator
+  - JMacroAndCategoryModule (0.1.0)
+  - JPlayerModule (0.1.0):
+    - JCommonUIModule
+    - JDLNAModule
+    - JSONModel
+    - Masonry
+  - JPlayerModuleCategory (0.1.0):
+    - CTMediator
+  - JSONModel (1.8.0)
+  - Masonry (1.1.0)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+  - TYCyclePagerView (1.2.0)
+
+DEPENDENCIES:
+  - JCommonUIModule (from `../JCommonUIModule`)
+  - JDLNAModule (from `../JDLNAModule`)
+  - JHomeModule (from `../JHomeModule`)
+  - JHomeModuleCategory (from `../JHomeModuleCategory`)
+  - JMacroAndCategoryModule (from `../JMacroAndCategoryModule`)
+  - JPlayerModule (from `../JPlayerModule`)
+  - JPlayerModuleCategory (from `../JPlayerModuleCategory`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - CTMediator
+    - JSONModel
+    - Masonry
+    - MRDLNA
+    - TYCyclePagerView
+
+EXTERNAL SOURCES:
+  JCommonUIModule:
+    :path: "../JCommonUIModule"
+  JDLNAModule:
+    :path: "../JDLNAModule"
+  JHomeModule:
+    :path: "../JHomeModule"
+  JHomeModuleCategory:
+    :path: "../JHomeModuleCategory"
+  JMacroAndCategoryModule:
+    :path: "../JMacroAndCategoryModule"
+  JPlayerModule:
+    :path: "../JPlayerModule"
+  JPlayerModuleCategory:
+    :path: "../JPlayerModuleCategory"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
+  JCommonUIModule: b2ff54657b55e4ff7149f8d2ff867a329e8067f0
+  JDLNAModule: 114ca9996bf5c8681b1b127728a5bcec60c8e3fd
+  JHomeModule: 08d090cae2638107f85c986ae766875a20035650
+  JHomeModuleCategory: 35920a29930e85e3346d7d5e6c799346af1056bc
+  JMacroAndCategoryModule: f43e6db419af27fb70736819713d00bbc181431f
+  JPlayerModule: 143933f6812a19259336c585fe9979335268af25
+  JPlayerModuleCategory: de3f89b3f3762d1ed6196b560bee53c59cf84844
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+
+PODFILE CHECKSUM: 7b903a77bcdf2772995ecbd168ab4ea97da56dae
+
+COCOAPODS: 1.8.4

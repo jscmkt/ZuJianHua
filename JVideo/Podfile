@@ -1,0 +1,19 @@
+
+# Uncomment the next line to define a global platform for your project
+
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+platform :ios, '9.0'
+target 'JVideo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JVideo
+
+    pod 'JHomeModuleCategory', :path => '../JHomeModuleCategory'
+    pod 'JMacroAndCategoryModule', :path => '../JMacroAndCategoryModule'
+    pod 'JCommonUIModule', :path => '../JCommonUIModule'
+    pod 'JPlayerModuleCategory', :path => '../JPlayerModuleCategory'
+    pod 'JHomeModule', :path => '../JHomeModule'
+    pod 'JPlayerModule', :path => '../JPlayerModule'
+    pod 'JDLNAModule', :path => '../JDLNAModule'
+end

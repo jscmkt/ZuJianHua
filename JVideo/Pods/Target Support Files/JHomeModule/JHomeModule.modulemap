@@ -1,0 +1,6 @@
+framework module JHomeModule {
+  umbrella header "JHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

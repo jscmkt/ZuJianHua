@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E3CB4D9CBFCED0E87732DA /* Pods_JVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD9B00013BCA011EAB9F8C9 /* Pods_JVideo.framework */; };
+		5F60E56B25779D1100126377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F60E56A25779D1100126377 /* AppDelegate.m */; };
+		5F60E56E25779D1100126377 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F60E56D25779D1100126377 /* SceneDelegate.m */; };
+		5F60E57125779D1100126377 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F60E57025779D1100126377 /* ViewController.m */; };
+		5F60E57425779D1100126377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F60E57225779D1100126377 /* Main.storyboard */; };
+		5F60E57625779D1300126377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F60E57525779D1300126377 /* Assets.xcassets */; };
+		5F60E57925779D1300126377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F60E57725779D1300126377 /* LaunchScreen.storyboard */; };
+		5F60E57C25779D1300126377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F60E57B25779D1300126377 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F60E56625779D1100126377 /* JVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F60E56925779D1100126377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F60E56A25779D1100126377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F60E56C25779D1100126377 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5F60E56D25779D1100126377 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5F60E56F25779D1100126377 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F60E57025779D1100126377 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F60E57325779D1100126377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F60E57525779D1300126377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F60E57825779D1300126377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F60E57A25779D1300126377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F60E57B25779D1300126377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		864184B22192B41358C5736C /* Pods-JVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVideo.release.xcconfig"; path = "Target Support Files/Pods-JVideo/Pods-JVideo.release.xcconfig"; sourceTree = "<group>"; };
+		ABD9B00013BCA011EAB9F8C9 /* Pods_JVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDBE2CA4A9C4FAD69BC9738 /* Pods-JVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVideo.debug.xcconfig"; path = "Target Support Files/Pods-JVideo/Pods-JVideo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F60E56325779D1100126377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E3CB4D9CBFCED0E87732DA /* Pods_JVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F60E55D25779D1100126377 = {
+			isa = PBXGroup;
+			children = (
+				5F60E56825779D1100126377 /* JVideo */,
+				5F60E56725779D1100126377 /* Products */,
+				CC748B75DDA68D9AD9140F61 /* Pods */,
+				79D7C6D291F6B5262F2B25C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F60E56725779D1100126377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F60E56625779D1100126377 /* JVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F60E56825779D1100126377 /* JVideo */ = {
+			isa = PBXGroup;
+			children = (
+				5F60E56925779D1100126377 /* AppDelegate.h */,
+				5F60E56A25779D1100126377 /* AppDelegate.m */,
+				5F60E56C25779D1100126377 /* SceneDelegate.h */,
+				5F60E56D25779D1100126377 /* SceneDelegate.m */,
+				5F60E56F25779D1100126377 /* ViewController.h */,
+				5F60E57025779D1100126377 /* ViewController.m */,
+				5F60E57225779D1100126377 /* Main.storyboard */,
+				5F60E57525779D1300126377 /* Assets.xcassets */,
+				5F60E57725779D1300126377 /* LaunchScreen.storyboard */,
+				5F60E57A25779D1300126377 /* Info.plist */,
+				5F60E57B25779D1300126377 /* main.m */,
+			);
+			path = JVideo;
+			sourceTree = "<group>";
+		};
+		79D7C6D291F6B5262F2B25C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD9B00013BCA011EAB9F8C9 /* Pods_JVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC748B75DDA68D9AD9140F61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCDBE2CA4A9C4FAD69BC9738 /* Pods-JVideo.debug.xcconfig */,
+				864184B22192B41358C5736C /* Pods-JVideo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F60E56525779D1100126377 /* JVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F60E57F25779D1300126377 /* Build configuration list for PBXNativeTarget "JVideo" */;
+			buildPhases = (
+				A9C7856888A90A5509B46F96 /* [CP] Check Pods Manifest.lock */,
+				5F60E56225779D1100126377 /* Sources */,
+				5F60E56325779D1100126377 /* Frameworks */,
+				5F60E56425779D1100126377 /* Resources */,
+				E83DC60D05F0EF95239A4F29 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVideo;
+			productName = JVideo;
+			productReference = 5F60E56625779D1100126377 /* JVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F60E55E25779D1100126377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = jsc;
+				TargetAttributes = {
+					5F60E56525779D1100126377 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 5F60E56125779D1100126377 /* Build configuration list for PBXProject "JVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F60E55D25779D1100126377;
+			productRefGroup = 5F60E56725779D1100126377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F60E56525779D1100126377 /* JVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F60E56425779D1100126377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F60E57925779D1300126377 /* LaunchScreen.storyboard in Resources */,
+				5F60E57625779D1300126377 /* Assets.xcassets in Resources */,
+				5F60E57425779D1100126377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9C7856888A90A5509B46F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83DC60D05F0EF95239A4F29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JVideo/Pods-JVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JVideo/Pods-JVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JVideo/Pods-JVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F60E56225779D1100126377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F60E57125779D1100126377 /* ViewController.m in Sources */,
+				5F60E56B25779D1100126377 /* AppDelegate.m in Sources */,
+				5F60E57C25779D1300126377 /* main.m in Sources */,
+				5F60E56E25779D1100126377 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F60E57225779D1100126377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F60E57325779D1100126377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F60E57725779D1300126377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F60E57825779D1300126377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F60E57D25779D1300126377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F60E57E25779D1300126377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F60E58025779D1300126377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDBE2CA4A9C4FAD69BC9738 /* Pods-JVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99EJLR3Y3N;
+				INFOPLIST_FILE = JVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsc.JVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F60E58125779D1300126377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864184B22192B41358C5736C /* Pods-JVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99EJLR3Y3N;
+				INFOPLIST_FILE = JVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsc.JVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F60E56125779D1100126377 /* Build configuration list for PBXProject "JVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F60E57D25779D1300126377 /* Debug */,
+				5F60E57E25779D1300126377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F60E57F25779D1300126377 /* Build configuration list for PBXNativeTarget "JVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F60E58025779D1300126377 /* Debug */,
+				5F60E58125779D1300126377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F60E55E25779D1100126377 /* Project object */;
+}

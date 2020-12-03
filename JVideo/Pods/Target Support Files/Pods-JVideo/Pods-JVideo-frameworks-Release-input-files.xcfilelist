@@ -1,0 +1,15 @@
+${PODS_ROOT}/Target Support Files/Pods-JVideo/Pods-JVideo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/JCommonUIModule/JCommonUIModule.framework
+${BUILT_PRODUCTS_DIR}/JDLNAModule/JDLNAModule.framework
+${BUILT_PRODUCTS_DIR}/JHomeModule/JHomeModule.framework
+${BUILT_PRODUCTS_DIR}/JHomeModuleCategory/JHomeModuleCategory.framework
+${BUILT_PRODUCTS_DIR}/JMacroAndCategoryModule/JMacroAndCategoryModule.framework
+${BUILT_PRODUCTS_DIR}/JPlayerModule/JPlayerModule.framework
+${BUILT_PRODUCTS_DIR}/JPlayerModuleCategory/JPlayerModuleCategory.framework
+${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework
+${BUILT_PRODUCTS_DIR}/MRDLNA/MRDLNA.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/TYCyclePagerView/TYCyclePagerView.framework

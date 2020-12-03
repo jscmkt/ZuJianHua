@@ -1,0 +1,6 @@
+framework module JDLNAModule {
+  umbrella header "JDLNAModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "JCommonUIModule",
+  "version": "0.1.0",
+  "summary": "A short description of JCommonUIModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jscmkt/JCommonUIModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jscmkt": "916770982@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jscmkt/JCommonUIModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JCommonUIModule/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "JMacroAndCategoryModule": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"Masonry.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"LGMacros.h\""
+  ]
+}

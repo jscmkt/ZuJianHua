@@ -1,0 +1,49 @@
+{
+  "name": "JPlayerModule",
+  "version": "0.1.0",
+  "summary": "A short description of JPlayerModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jscmkt/JPlayerModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jscmkt": "916770982@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jscmkt/JPlayerModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JPlayerModule/Classes/**/*",
+  "resource_bundles": {
+    "JPlayerModule": [
+      "JPlayerModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "JCommonUIModule": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "JDLNAModule": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"LGMacros.h\"",
+    "#import \"Masonry.h\"",
+    "#import \"LGLoading.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"LGToast.h\"",
+    "#import \"LGShare.h\""
+  ]
+}

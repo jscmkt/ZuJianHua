@@ -1,0 +1,6 @@
+framework module JCommonUIModule {
+  umbrella header "JCommonUIModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

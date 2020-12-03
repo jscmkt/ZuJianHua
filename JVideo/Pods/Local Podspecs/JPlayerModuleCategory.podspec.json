@@ -1,0 +1,27 @@
+{
+  "name": "JPlayerModuleCategory",
+  "version": "0.1.0",
+  "summary": "A short description of JPlayerModuleCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jscmkt/JPlayerModuleCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jscmkt": "916770982@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jscmkt/JPlayerModuleCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JPlayerModuleCategory/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

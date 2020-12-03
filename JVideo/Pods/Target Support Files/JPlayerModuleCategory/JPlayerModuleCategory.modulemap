@@ -1,0 +1,6 @@
+framework module JPlayerModuleCategory {
+  umbrella header "JPlayerModuleCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
